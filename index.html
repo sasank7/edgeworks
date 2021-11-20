@@ -15,19 +15,18 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <!--  -->
+
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">    <!--  -->
+
   </head>
+  
   <body>
     <header class="ew-navigation">
       <nav
-        class="navbar navbar-expand-lg fixed-top navbar-light bg-light"
+        class="navbar navbar-expand-lg fixed-top"
         id="ew-navigation"
       >
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand" href="#">
             <img src="Assets/Images/edge logo.png" alt="ew-logo" class="ew-logo"/></a>
           <button
@@ -39,29 +38,30 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<i class="fas fa-bars"></i>          </button>
           <div class="collapse navbar-collapse" id="ew-navbar-list">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item pl-4">
-                <a class="nav-link" href="#">HOME</a>
+              <li class="nav-item ">
+                <a class="nav-link active" href="#">HOME</a>
               </li>
 
-              <li class="nav-item pl-4">
+              <li class="nav-item ">
                 <a class="nav-link" href="#ABOUT">ABOUT</a>
               </li>
-              <li class="nav-item pl-4">
+              <li class="nav-item ">
                 <a class="nav-link" href="#SERVICES">SERVICES</a>
               </li>
-
-              <li class="nav-item pl-4">
+              <li class="nav-item ">
                 <a class="nav-link" href="#CAREERS">CAREERS</a>
               </li>
-              <li class="nav-item pl-4">
+              <li class="nav-item ">
                 <a class="nav-link" href="#PORTFOLIO">PORTFOLIO</a>
               </li>
-              <li class="nav-item pl-4">
-                <a class="nav-link" href="#">CONTACT</a>
+              <li class="nav-item ">
+                <a class="nav-link" href="#JOBS">JOBS & INTERSHIP</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#Contact">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -70,52 +70,104 @@
     </header>
     <section class="ew-home">
       <div class="bg-image-home"></div>
-      <div class="container-fluid ew-home-container">
-        <div class="row justify-content-center">
-          <div class="col-xl-6 col-sm-12 align-self-center">
-            <h1 class="ew-home-heading">
-              We bring the right people together to challenge established
-              thinking and drive <span class="ew-headingRed-Highlight">transformation.</span>
+      <div class="container mt-5 ew-home-container">
+        <div class="row">
+          <div class="col">
+            <h1 class="ew-home-heading text-center">
+              We bring the right people together <br/>to challenge established
+              thinking <br/>and drive <span class="ew-headingRed-Highlight">transformation.</span>
             </h1>
           </div>
         </div>
-        <div class="row p-5 ew-home-features-row">
-          <div class="ew-home-features col-xl-3 col-sm-12">
-            <div class="">
+        <div class="row  ew-home-features-row">
+          <div class="col-md-4 my-sm-2 text-center ">
+            <div class="my-3">
               <img
                 src="./Assets/Images/EDGE Works - homepage – 2/noun_innovative technology_2102003.svg"
                 alt="logo"
               />
             </div>
             <h2>We Innovate</h2>
-            <p>We innovate systematically, continuously and successfully.</p>
+            <p>We innovate systematically, continuously and <br/>successfully.</p>
             <a href="#">Read more</a>
           </div>
-          <div class="ew-home-features col-xl-3 col-sm-12">
-            <div class="">
+          <div class="col-md-4 my-sm-2 text-center">
+            <div class="my-3">
               <img
                 src="./Assets/Images/EDGE Works - homepage – 2/noun_performance_2108627.svg"
                 alt="logo"
               />
             </div>
             <h2>Performance</h2>
-            <p>Performance is about solving problems and building business.</p>
+            <p>Performance is about solving problems and<br/> building business.</p>
             <a href="#">Read more</a>
           </div>
-          <div class="ew-home-features col-xl-3 col-sm-12">
-            <div class="">
+          <div class="col-md-4  my-sm-2 text-center">
+            <div class="my-3">
               <img
                 src="./Assets/Images/EDGE Works - homepage – 2/noun_service_3503113.svg"
                 alt="logo"
               />
             </div>
             <h2>A Full Service</h2>
-            <p>We are a full service business solutions provider.</p>
+            <p>We are a full service business solutions<br/> provider.</p>
             <a href="#">Read more</a>
           </div>
         </div>
       </div>
-    </section>
+    </section>  
+    <!-- <section class="about p-4" id="ABOUT">
+  <div class="container-fluid p-5">
+  <div class="row">
+    <div class="col-5 p-5">
+<span class="Page-identifier">About</span>
+            <h1 class="ew-about-heading">
+              We are more than you 
+              <span class="ew-headingRed-Highlight">imagine</span>
+            </h1> 
+            <p class="ew-aboutpage-para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
+              text used in laying out print, graphic or web designs. The passage
+              is attributed to an unknown typesetter in the 15th century who is
+              thought to have scrambled parts of Cicero's De Finibus Bonorum et
+              Malorum for use in a type specimen book. It usually begins with:
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.” The
+              purpose of lorem ipsum is to create a natural looking block of
+              text (sentence, paragraph, page, etc.) that doesn't distract from
+              the layout. A practice not without controversy. , laying out pages
+              with meaningless filler text can be very useful when the focus is
+              meant to be on design, not content. The passage experienced a
+              surge in popularity during the 1960s when Letraset used it on
+              their dry-transfer sheets, and again during the 90s as desktop
+              publishers bundled the text with their software. Today it's seen
+              all around the web; on templates, websites, and stock designs. Use
+              our generator to get your own, or read on for the authoritative
+              history of lorem ipsum.empor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum.
+            </p>
+
+    </div>
+    
+    <div class="col-xl-7 col-sm-md-12 p-5">
+      <div class="ew-about-headingOn-image">
+        <img src="./Assets/Images/Group 72@2x.png" class="ew-about-image"/>
+        <h1 class="ew-HeadOnImg">Our<br/> Mission & Vision Successful Business</h1>
+      </div>
+      <p>
+        Our mission is to provide expertise, efficiency, and excellence in service to enhance the digital and cloud ecosystems of our customers. With expert analysis, creative design and development, implementation, and support, the Eficens team will help clients to deliver market-defining, high quality solutions that create value and reliable competitive advantage to customers around the globe.
+      </p>
+    </div>
+    </div>
+  </div>
+
+</section>
     <section class="ew-services" id="SERVICES">
       <div class="container-fluid">
         <div class="row">
@@ -125,7 +177,7 @@
               alt="christina-image"
               class="ew-services-image"
             />
-          </div>
+          </div>             
           <div class="col-xl-6 ew-servicepage-content">
             <span class="Page-identifier">Services</span>
             <h1 class="ew-services-heading">
@@ -547,58 +599,7 @@ USA + 1 855 585 7344 India +91 40 4286 5599 <br/>UAE +971 4 3132770         </p>
       </div>
 
     </section>
-<section class="about" id="ABOUT">
-  <div class="container-fluid">
-  <div class="row">
-    <div class="col-5 p-5">
-<span class="Page-identifier">About</span>
-            <h1 class="ew-about-heading">
-              We are more than you 
-              <span class="ew-headingRed-Highlight">imagine</span>
-            </h1> 
-            <p class="ew-aboutpage-para">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
-              text used in laying out print, graphic or web designs. The passage
-              is attributed to an unknown typesetter in the 15th century who is
-              thought to have scrambled parts of Cicero's De Finibus Bonorum et
-              Malorum for use in a type specimen book. It usually begins with:
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.” The
-              purpose of lorem ipsum is to create a natural looking block of
-              text (sentence, paragraph, page, etc.) that doesn't distract from
-              the layout. A practice not without controversy. , laying out pages
-              with meaningless filler text can be very useful when the focus is
-              meant to be on design, not content. The passage experienced a
-              surge in popularity during the 1960s when Letraset used it on
-              their dry-transfer sheets, and again during the 90s as desktop
-              publishers bundled the text with their software. Today it's seen
-              all around the web; on templates, websites, and stock designs. Use
-              our generator to get your own, or read on for the authoritative
-              history of lorem ipsum.empor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.
-            </p>
 
-    </div>
-    
-    <div class="col-xl-7 col-sm-md-12 p-5">
-      <div class="ew-about-headingOn-image">
-        <img src="./Assets/Images/Group 72@2x.png" class="ew-about-image"/>
-        <h1 class="ew-HeadOnImg">Our<br/> Mission & Vision Successful Business</h1>
-      </div>
-      <p>
-        Our mission is to provide expertise, efficiency, and excellence in service to enhance the digital and cloud ecosystems of our customers. With expert analysis, creative design and development, implementation, and support, the Eficens team will help clients to deliver market-defining, high quality solutions that create value and reliable competitive advantage to customers around the globe.
-      </p>
-    </div>
-    </div>
-  </div>
-
-</section>
 <section class="ew-manifasto">
   <div class="container">
     <div class="row">
@@ -678,7 +679,7 @@ info@appstekcorp.com        </div>
                           <span class="Page-identifier">Our Location</span>
                           <!-- <img src=""> -->
                           <div>
-          <img src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg" alt="footer-location"/>
+          <!-- <img src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg" alt="footer-location"/>
 USA: + 1 855 585 7344              <img src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg" alt="footer-location"/>
 India: + 91 40 4286 5599              <img src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg" alt="footer-location"/>
 UAE: + 971 4 3132770        </div>
@@ -714,8 +715,8 @@ UAE: + 971 4 3132770        </div>
     
 
   </div>
-</footer>
-<section class="copy-rights">
+</footer> -->
+<!-- <section class="copy-rights">
 <div class="container-fluid">
   <div class="row">
       <div class="col">
@@ -726,9 +727,9 @@ UAE: + 971 4 3132770        </div>
 
       </div>
     </div> 
-
+    
 </div>
-</section>
+</section>     --> 
     <!--  -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -745,6 +746,32 @@ UAE: + 971 4 3132770        </div>
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/bf51e6ec9e.js" crossorigin="anonymous"></script>
     <!--  -->
+    <!-- js script for active -->
+
+    <script>
+
+      // Add active class to the current button (highlight it)
+
+      var header = document.getElementById("ew-navbar-list");
+
+      var btns = header.getElementsByClassName("nav-link");
+
+      for (var i = 0; i < btns.length; i++) {
+
+        btns[i].addEventListener("click", function() {
+
+        var current = document.getElementsByClassName("active");
+
+        current[0].className = current[0].className.replace(" active", "");
+
+        this.className += " active";
+
+        });
+
+      }
+
+    </script>
   </body>
 </html>
