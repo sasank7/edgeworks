@@ -298,7 +298,8 @@ button.ew-service-options-button {
 /* Carrers */
 .ew-careers-image {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 80%;
+  /* margin-bottom:100px; */
 }
 
 /*  */
