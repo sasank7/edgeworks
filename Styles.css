@@ -12,10 +12,20 @@
   font-family: var(--ew-headings);
   color: var(--ew-Heading-color);
 }
+nav {
+  background-color: rgb(248, 246, 244);
+}
 html {
   scroll-behavior: smooth;
 }
+.navbar-fixed-top.scrolled {
+  background-color: rgb(24, 23, 23) !important;
+  transition: background-color 200ms linear;
+}
 
+.navbar-fixed-top.scrolled .nav-link {
+  color: #555;
+}
 /* carousal page  */
 
 div.carousel-item {
@@ -379,9 +389,15 @@ section.footer {
 footer {
   background-color: #313073;
   color: white;
+  font-size: 0.8rem;
 }
-h5 {
-  text-align: center;
+.map {
+  height: 10vw;
+}
+.map img {
+  max-height: 100% !important;
+  max-width: 100% !important;
+  padding: 10px 0px;
 }
 ul.footer-links li a {
   color: white;
@@ -389,11 +405,12 @@ ul.footer-links li a {
 }
 ul.footer-links {
   list-style-type: none;
+  padding: 0px;
 }
 div.HEADQUARTER img,
 div.Our-Location img {
-  height: 10px;
-  width: 15px;
+  max-height: 30px;
+  max-width: 30px;
 }
 section.copy-rights {
   background-color: black;
@@ -402,18 +419,22 @@ h5 {
   color: white;
 }
 img.footer-logo-ew {
-  margin-bottom: 50px;
+  margin-bottom: 5px;
 }
 /* carousal image  */
 
+.footer-social-icons img {
+  max-width: 80%;
+  max-height: 80%;
+}
 /* Media Queries */
 @media (max-device-width: 768px) {
   .ew-home-features-row > div {
     margin: 7%;
   }
-  /* #ABOUT {
+  #ABOUT {
     margin-top: 100vh;
-  } */
+  }
   /* .ew-home-container {
     height: 230vh;
   } */
