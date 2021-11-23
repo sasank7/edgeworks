@@ -146,7 +146,7 @@ div.ew-home-container {
   top: 90px;
 }
 .ew-home-features-row {
-  margin-top: 6%;
+  margin-top: 2%;
 }
 .ew-home-features-row img {
   height: 55px;
@@ -304,21 +304,30 @@ button.ew-service-options-button {
 
 /*  */
 img.ew-contact-info-image {
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 80%;
+  max-width: 80%;
+}
+form {
+  width: 90%;
 }
 input,
 textarea {
   display: block;
   width: 100%;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+}
+button.form-btn {
+  float: right;
+}
+
+.submit-form-btn {
+  width: 90%;
 }
 textarea {
   height: 30vh;
 }
-form {
-  margin-top: 60px;
-  padding-left: 40px;
-}
+
 /* get in touch */
 .ew-getIn-touch {
   background-color: #313073;
@@ -356,10 +365,16 @@ section.footer {
   gap: 3px;
   grid-template-columns: 1fr 1fr;
 }
-
-.stattalk-grid > div {
-  text-align: center;
+.stattalk-grid h2 {
+  color: black;
+  font-family: var(--ew-headings);
+  font-size: 2em;
 }
+.stattalk-grid h1 {
+  color: var(--ew-redColor);
+  font-size: 3rem;
+}
+
 /* footer */
 footer {
   background-color: #313073;
@@ -392,11 +407,17 @@ img.footer-logo-ew {
 /* carousal image  */
 
 /* Media Queries */
-@media screen and (max-device-width: 768px) {
+@media (max-device-width: 768px) {
   .ew-home-features-row > div {
     margin: 7%;
   }
-  #ABOUT {
+  /* #ABOUT {
     margin-top: 100vh;
-  }
+  } */
+  /* .ew-home-container {
+    height: 230vh;
+  } */
+  /* form {
+    width: 100%;
+  } */
 }
