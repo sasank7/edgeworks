@@ -138,7 +138,7 @@ h1.ew-home-heading {
   color: #313073;
   font-size: 40px;
   font-family: var(--ew-headings);
-  /* padding-right: 16rem; */
+  padding-right: 16rem;
 }
 
 img.ew-logo {
@@ -489,10 +489,10 @@ h5 {
 img.footer-logo-ew {
   margin-bottom: 5px;
 }
-img.footer-logo-ew{
+/* img.footer-logo-ew{
  height:100% !important;
   width:100% !important;
-}
+} */
 /*footer social icon start*/
 
 body {
@@ -819,7 +819,7 @@ margin-bottom: 1rem;
   top: -20px;
 }
 
-.leader-name {
+.leader-name  {
   font-family: var(--ew-roboto);
  letter-spacing: 0px;
  color: #212121;
@@ -905,6 +905,15 @@ div.conn{
   width:3%;
   margin:auto;
 }
+
+
+
+
+
+
+
+
+
 /* Media Queries */
 @media (max-device-width: 767px) {
 
