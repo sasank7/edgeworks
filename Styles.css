@@ -940,7 +940,7 @@ opacity: 1;
   font-size: 13px;
   /* margin-left: 60px; */
   margin-top: -60px;
-  padding: 0px 0px 0px 60px;
+  padding: 12px 0px 0px 60px;
 }
 .job-text {
   font-size: 10px;
@@ -949,11 +949,21 @@ opacity: 1;
   font-size: 13px;
 }
 .apply-job {
-  padding: 0px 0px 0px 0px;
-  margin-left: 390px;
+  margin-left: 230px;
+  background: #5C6BC0 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 12px;
+opacity: 1;
+font-size: 13px;
 }
-/* .job-start {
-padding-left: 30px;} */
+
+.jobs-start {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 10px;
+  border:1px  ;
+  opacity: 1;
+}
 
 @media (max-width: 991px) {
 
