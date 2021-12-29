@@ -202,6 +202,8 @@ p {
   font-family: var(--ew-roboto);
   font-size: 14px;
 }
+
+
 /* about Start */
 img.ew-about-image {
   max-width: 100%;
@@ -366,7 +368,7 @@ button.ew-service-options-button {
   /* margin-bottom:100px; */
 }
 
-/*  */
+/* Contact */
 img.ew-contact-info-image {
   max-height: 80%;
   max-width: 80%;
@@ -378,9 +380,19 @@ input,
 textarea {
   display: block;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 7px;
   border: 1px solid #bdbdbd;
+  padding: 10px 0px 10px 0px;
 }
+input,textarea,::placeholder {
+  text-align: left;
+font: normal normal normal 12px Roboto;
+letter-spacing: 0px;
+color: #BDBDBD;
+opacity: 1;
+padding-left: 10px;
+}
+
 button.form-btn {
   float: right;
 }
@@ -949,12 +961,13 @@ opacity: 1;
   font-size: 13px;
 }
 .apply-job {
-  margin-left: 230px;
+  margin-left: 190px;
   background: #5C6BC0 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 12px;
 opacity: 1;
 font-size: 13px;
+padding: 0px 15px 0px 15px;
 }
 
 .jobs-start {
@@ -964,6 +977,43 @@ font-size: 13px;
   border:1px  ;
   opacity: 1;
 }
+
+
+
+/*Contact page start*/
+
+
+.ew-contact-image {
+  padding: 10px 10px 10px 10px;
+  width: 65%;
+  /* background: #EEEEEE 0% 0% no-repeat padding-box; */
+opacity: 1;
+}
+.contact-table {
+  padding-left:100px ;
+}
+
+.contact-message, input, textarea {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #BDBDBD;
+border-radius: 7px;
+opacity: 1;
+padding: 20px 20px 20px 20px;
+margin-bottom: 20px;
+
+}
+
+.contact-message, input,textarea,::placeholder {
+  text-align: left;
+font: normal normal normal 16px Roboto;
+letter-spacing: 0px;
+color: #BDBDBD;
+opacity: 1;
+padding-left: 10px;
+}
+
+
+
 
 @media (max-width: 991px) {
 
@@ -1058,7 +1108,7 @@ div.conn{
     height: 500px;
 }
 .ew-home-heading {
-  padding: 0px 0px;
+  padding: 0px 0px !important;
   font-size: 32px !important;
 }
 section#ABOUT {
@@ -1071,6 +1121,15 @@ section#ABOUT {
 }
 span.ew-Highlight {
   font-size: 28px;
+}
+.apply-job {
+  margin-left: 80px;
+  background: #5C6BC0 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 12px;
+  opacity: 1;
+  font-size: 13px;
+  padding: 0px 15px 0px 15px;
 }
 
 
