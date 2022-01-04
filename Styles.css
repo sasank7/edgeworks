@@ -982,18 +982,68 @@ padding: 0px 15px 0px 15px;
 
 /*Contact page start*/
 
-
+/* .border-right {
+  border-right: 1px solid #dee2e6!important;
+  height: 240px;
+  padding: 68px;
+} */
 .ew-contact-image {
   padding: 10px 10px 10px 10px;
   width: 65%;
   /* background: #EEEEEE 0% 0% no-repeat padding-box; */
 opacity: 1;
 }
+/* .contact-info-txt {
+  font: normal normal bold 23px/26px Roboto;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-top: 66px;
+} */
+.contact-info-txt {
+  /* font: normal normal bold 23px/26px Roboto; */
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  /* margin-top: 66px; */
+  font-size: 24px;
+  margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* .bg-image-contact{
+  width: 100%;
+  background: url("./Assets/Images/contact/Contact\ us_BG.png") no-repeat
+  center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 70vh;
+} */
+
+.contact-border {
+  /* border: 1px solid #313073; */
+  background-image: linear-gradient(to right, #7E57C2 , #313073 );
+  border-radius: 10px;
+  /* height: 15rem;
+  width: 70rem; */
+  margin-top: -211px;
+  opacity: 1;
+}
+
+.contact-sales :hover ,.contact-services:hover ,.contact-mail :hover {
+  background: black;
+  
+
+}
+
+
 .contact-table {
   padding-left:100px ;
 }
 
-.contact-message, input, textarea {
+.contact-message {
   background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #BDBDBD;
 border-radius: 7px;
@@ -1011,8 +1061,38 @@ color: #BDBDBD;
 opacity: 1;
 padding-left: 10px;
 }
-
-
+.contact-msg {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #BDBDBD;
+border-radius: 0px;
+opacity: 1;
+padding: 20px 20px 20px 20px;
+margin-bottom: 20px;
+}
+.contact-button {
+    background-color: #cb2229;
+    color: white;
+    border: 1px solid #cb2229;
+    border-radius: 7px;
+    width: 100px;
+    height: 35px;
+}
+.ew-reset {
+  background: #8F8F8F 0% 0% no-repeat padding-box;
+border-radius: 7px;
+opacity: 1;
+    border-radius: 7px;
+    width: 100px;
+    height: 35px;
+    margin-right: 30px;
+}
+.read-more {
+  text-align: center;
+font: normal normal normal 13px/1px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
 
 
 @media (max-width: 991px) {
