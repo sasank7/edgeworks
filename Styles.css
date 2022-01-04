@@ -1009,6 +1009,7 @@ opacity: 1;
   font-size: 24px;
   margin-top: 0;
     margin-bottom: 0;
+    padding: 4rem;
 }
 
 /* .bg-image-contact{
@@ -1025,19 +1026,47 @@ height: 70vh;
 .contact-border {
   /* border: 1px solid #313073; */
   background-image: linear-gradient(to right, #7E57C2 , #313073 );
-  border-radius: 10px;
-  /* height: 15rem;
-  width: 70rem; */
-  margin-top: -211px;
+  border-radius: 30px;
+  position: absolute;
+  top: 120px;
   opacity: 1;
+  width: 82%;
 }
 
-.contact-sales :hover ,.contact-services:hover ,.contact-mail :hover {
-  background: black;
-  
+.hover-1:hover {
+  background: #000;
+}
+
+.hover-1 {
+ padding: 40px 0px;
+}
+
+.hover-2:hover {
+  background: #000;
+  border-radius: 30px 0px 0px 30px;
+  padding: 40px 0px;
 
 }
 
+.hover-2 {
+ padding: 40px 0px;
+}
+.hover-3:hover {
+  background: #000;
+  border-radius: 0px 30px 30px 0px;
+  padding: 40px 0px;
+}
+
+.hover-3 {
+ padding: 40px 0px;
+}
+
+
+
+.contact-border .padd-0{
+  padding-right: 0px;
+  padding-left: 0px;
+}
 
 .contact-table {
   padding-left:100px ;
@@ -1212,6 +1241,17 @@ span.ew-Highlight {
   padding: 0px 15px 0px 15px;
 }
 
+.contact-border  {
+  position: relative;
+  padding: 0px 12px 0px 20px;
+  border-radius: 30px;
+  top: -30px;
+  opacity: 1;
+  width: 100%;
+}
+.contact-info-txt {
+  padding: 0px 30px 0px 30px;
+}
 
 .p-sm-0 {
   padding: 20px!important;
